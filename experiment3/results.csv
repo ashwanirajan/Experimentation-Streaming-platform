@@ -1,0 +1,4 @@
+,conditions,Ha,condition_values,mean1,mean2,sigma1=sigma2?,T-stat,p-val,Bonferroni corrections,Should I reject H0?
+0,condition1 vs condition2,Ha : mean_condition1 < mean_condition2,"[75, 0.2, 75, 'TT'] vs [70, 0.2, 75, 'TT']",9.845807592171665,10.535306195190504,False,-4.678891106347005,2.6708083556972888e-06,8.012425067091867e-06,True
+1,condition1 vs condition3,Ha : mean_condition1 < mean_condition3,"[75, 0.2, 75, 'TT'] vs [75, 0.2, 65, 'TT']",9.845807592171665,11.137688686594489,False,-8.944386824485195,1.383468034184669e-16,4.1504041025540073e-16,True
+2,condition2 vs condition3,Ha : mean_condition2 < mean_condition3,"[70, 0.2, 75, 'TT'] vs [75, 0.2, 65, 'TT']",10.535306195190504,11.137688686594489,False,-4.2545436202488816,1.6160783270507845e-05,4.848234981152354e-05,True

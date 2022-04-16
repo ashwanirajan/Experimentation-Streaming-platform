@@ -1,0 +1,7 @@
+,conditions,Ha,condition_values,mean1,mean2,sigma1=sigma2?,T-stat,p-val,Bonferroni corrections,Should I reject H0?
+0,condition1 vs condition2,Ha : mean_condition1 < mean_condition2,"[30, 'TT', 100, 0.1] vs [30, 'TT', 50, 0.1]",16.901804002148417,16.95186569066068,False,-0.3548262322261696,0.361548721515655,1.0,False
+1,condition1 vs condition3,Ha : mean_condition1 < mean_condition3,"[30, 'TT', 100, 0.1] vs [120, 'TT', 50, 0.1]",16.901804002148417,17.59959699854177,False,-4.995672971214406,6.424112376591842e-07,3.854467425955105e-06,True
+2,condition1 vs condition4,Ha : mean_condition1 < mean_condition4,"[30, 'TT', 100, 0.1] vs [120, 'TT', 100, 0.1]",16.901804002148417,20.020384468934143,False,-21.692500100728342,1.7816879413009917e-54,1.069012764780595e-53,True
+3,condition2 vs condition3,Ha : mean_condition2 < mean_condition3,"[30, 'TT', 50, 0.1] vs [120, 'TT', 50, 0.1]",16.95186569066068,17.59959699854177,False,-4.620064361491021,3.4515816529444676e-06,2.0709489917666807e-05,True
+4,condition2 vs condition4,Ha : mean_condition2 < mean_condition4,"[30, 'TT', 50, 0.1] vs [120, 'TT', 100, 0.1]",16.95186569066068,20.020384468934143,False,-21.2694993994092,2.655143776379782e-53,1.5930862658278692e-52,True
+5,condition3 vs condition4,Ha : mean_condition3 < mean_condition4,"[120, 'TT', 50, 0.1] vs [120, 'TT', 100, 0.1]",17.59959699854177,20.020384468934143,False,-16.94144609558896,1.2222265640681704e-40,7.333359384409023e-40,True

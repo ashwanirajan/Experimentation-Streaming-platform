@@ -1,0 +1,7 @@
+,conditions,Ha,condition_values,mean1,mean2,sigma1=sigma2?,T-stat,p-val,Bonferroni corrections,Should I reject H0?
+0,condition1 vs condition2,Ha : mean_condition1 < mean_condition2,"[75, 0.2, 75, 'TT'] vs [75, 0.2, 70, 'TT']",9.84580759189,10.230515104449996,False,-2.7087258884063488,0.0036770295069670634,0.02206217704180238,True
+1,condition1 vs condition3,Ha : mean_condition1 < mean_condition3,"[75, 0.2, 75, 'TT'] vs [80, 0.2, 75, 'TT']",9.84580759189,10.271900364959995,False,-2.829333105979701,0.002572431125104941,0.015434586750629647,True
+2,condition1 vs condition4,Ha : mean_condition1 < mean_condition4,"[75, 0.2, 75, 'TT'] vs [80, 0.2, 70, 'TT']",9.84580759189,10.376416147259999,True,-3.9476208316206227,5.481291714584851e-05,0.00032887750287509106,True
+3,condition2 vs condition3,Ha : mean_condition2 < mean_condition3,"[75, 0.2, 70, 'TT'] vs [80, 0.2, 75, 'TT']",10.230515104449996,10.271900364959995,False,-0.2903242028571848,0.3859383465473633,1.0,False
+4,condition2 vs condition4,Ha : mean_condition2 < mean_condition4,"[75, 0.2, 70, 'TT'] vs [80, 0.2, 70, 'TT']",10.230515104449996,10.376416147259999,False,-1.164162914821027,0.12289197232695663,0.7373518339617398,False
+5,condition3 vs condition4,Ha : mean_condition3 < mean_condition4,"[80, 0.2, 75, 'TT'] vs [80, 0.2, 70, 'TT']",10.271900364959995,10.376416147259999,True,-0.7743921958068181,0.21981130782874958,1.0,False

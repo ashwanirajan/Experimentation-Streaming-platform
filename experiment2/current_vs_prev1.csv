@@ -1,0 +1,7 @@
+,0
+Ha,current_condition1 < prev_condition1
+current_mean,10.3764161472374
+prev_mean,16.901804002148417
+sigma1=sigma2?,False
+T-stat,-50.52330206033875
+p-val,5.947815675194043e-113
